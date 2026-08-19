@@ -1,0 +1,716 @@
+header{overflow: hidden;}
+
+
+
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+  background: #000;
+}
+
+.carousel-caption{padding-bottom:80px;}
+
+h2{font-size: 60px;}
+p{padding:10px}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+
+
+
+
+/**
+ * Button
+ */
+.btn-transparent {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-transparent:hover {
+  background-color: #fff;
+}
+
+.btn-rounded {
+  border-radius: 70px;
+}
+
+.btn-large {
+  padding: 11px 45px;
+  font-size: 18px;
+}
+
+/**
+ * Change animation duration
+ */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100px, 0, 0);
+    transform: translate3d(100px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+
+
+
+
+.careplus-logo {
+ 
+    padding: 0px 0px;
+}
+.careplus-infolist {
+    float: left;
+    width: 77%;
+    padding-left: 10px;
+    text-align: ;
+}
+.careplus-user-list {
+    float: left;
+    margin: 9px 0px 0px 13px;
+}
+.careplus-user-list li {
+    margin: 15px 0px 0px -11px!important;
+}
+.careplus-user-list li {
+    float: left;
+    list-style: none;
+    margin: 15px 0px 0px 32px;
+    position: relative;
+    padding-bottom: 4px;
+}
+li {
+    line-height: 28px;
+    list-style: inside none disc;
+}
+.careplus-user-list li a {
+    font-size: 14px;
+}
+.topmenu {
+    padding: 14px 27px!important;
+}
+
+.topmenu {
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.7s;
+    background: #ed3237;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.topmenu:hover{color: #e4e3e3;letter-spacing: 1.8px;}
+.menucont{margin-top: 77px;}
+
+
+.logocont{text-align: center;}
+.topmenu {
+    padding: 14px 15px!important;
+
+
+}
+
+.login {
+    margin-left: 54px;
+    border: 1px solid #fff;
+    padding: 11px 30px;
+    margin-top: -20px;
+    float: right;
+    color: #fff !important;
+}
+
+.login {
+    margin-top: -20px !important;
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    outline: none;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.box-form {
+    margin: 0px;
+    height: 47%;
+    padding: 40px;
+    display: block;
+    background: #245a73;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+}
+
+.navbar-nav > li {
+    padding: 0px 26px 0px 10px;
+}
+
+
+.navbar-nav > li > a, .navbar-nav > li:hover > a:after, .navbar-nav > li:hover > a:before, .careplus-blog-modern figure a:before, .careplus-gallery-filterable ul li a, .careplus-plane-gallery figure > a:before, .careplus-tags a, .careplus-blog-social ul li a, .careplus-post-arrow, .comment-reply-link, .careplus-blog-grid figure a:before, .careplus-blog-grid-option li a, .careplus-pagination > ul > li > .previous span:before, .careplus-pagination > ul > li > .next span:before, .careplus-pagination > ul > li > .previous span:after, .careplus-pagination > ul > li > .next span:after, .careplus-pagination > ul > li > .previous:before, .careplus-pagination > ul > li > .next:before, .careplus-pagination > ul > li > .previous:after, .careplus-pagination > ul > li > .next:after, .careplus-pagination > ul > li > a, .careplus-pagination > ul > li > span, .careplus-related-team figure a:before, .careplus-related-team figure a:after, .careplus-team-filterable ul li a, .careplus-shop-option li a, .faq-accordion .panel-title a, .careplus-Pricing-Plan .careplus-error-btn, .careplus-Pricing-Plan .careplus-error-btn span:after, .careplus-Pricing-Plan .careplus-error-btn span:before, .careplus-Pricing-Plan .careplus-error-btn:before, .careplus-Pricing-Plan .careplus-error-btn:after, .available-btn, .careplus-blog-medium-text > span, .careplus-department-grid-text::before, .careplus-department-grid-text::after {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.navbar-nav > li:hover > a:after, .navbar-nav > li:hover > a:before, .navbar-nav > li.active > a:after, .navbar-nav > li.active > a:before {
+    opacity: 1;
+}
+
+
+.navbar-nav > li > a:after, .careplus-related-blog > ul > li:hover .careplus-related-blog-text:after, .careplus-appointment-form form:after, .careplus-team-medium-info, .careplus-team-medium-info:before, .careplus-partners ul li figure span, .careplus-breadcrumb:before, .careplus-department-grid figure a:before {
+    border-bottom-color: #9bc03c;
+}
+
+.navbar-nav > li > a:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -1px;
+    margin-left: -9px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 4px solid;
+    opacity: 0;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+.input-group .form-control {
+    width: 100%;
+    color: #9F9F9F;
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    background: #F8F8F8;
+    border: 1px solid #ccc;
+    height: 56px !important;
+}
+.input-group {
+    margin-bottom: 0px;
+    border: 1px solid #08364b17;
+    box-shadow: 3px 3px 0px green;
+    border-radius: 7px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+
+
+.careplus-color-two, .careplus-colorhover-two:hover, .navbar-nav > li:hover > a, .navbar-nav > li.active > a, .careplus-fancy-title span i, .careplus-blog-modern figure a span, .careplus-content-post-title span i, .careplus-content-post .careplus-readmore-btn, .careplus-plane-gallery figure figcaption > a, .widget_contact_info ul li h6, .careplus-blog-grid figure a span, .widget_useful_link ul li:hover a, .careplus-about-service h2 span, .carelus-team-social li a, .careplus-team-modern figure a span, .careplus-blog-option li i, .widget_populer_posts section time i, .careplus-tags a:hover, .careplus-blog-social ul li:hover a, .careplus-prenxt-post ul li:hover .careplus-post-arrow, .text-holder:hover .comment-reply-link, .widget_cetagories ul li:hover a, .widget_populer_posts ul li:hover section h6 a, .careplus-blog-grid-option li:hover a, .careplus-blog-large figure a span, .careplus-blog-large .careplus-blog-option li:hover a, .careplus-blog-large .careplus-blog-option li:hover a i, .careplus-blog-medium-text .careplus-blog-grid-option li a, .careplus-blog-medium figure a span, .careplus-related-team figure a span, .careplus-team-post-text > .careplus-footer-social li:hover a, .careplus-team-list figure a span, .careplus-related-products figure a span, .careplus-shop-grid figure a span, .careplus-shop-list figure a span, .careplus-department-grid figure a span, .careplus-department-list figure a > span, .careplus-error-btn, .careplus-search-result-text form input[type="submit"] {
+    color: #9bc03c;
+}
+
+
+.nav > li.careplus-megamenu-li {
+    position: static;
+}
+
+.navbar-nav > li > a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 29px 0px 26px 0px;
+    position: relative;
+}
+.navbar-nav > li > a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 29px 0px 26px 0px;
+    position: relative;
+}
+
+.navbar-nav > li > a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 29px 0px 26px 0px;
+    position: relative;
+}
+.careplus-megamenu {
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding: 28px 30px 10px 30px;
+    margin: 10px 0px 0px 0px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+.careplus-megamenu, .careplus-dropdown-menu {
+    -webkit-transition: all 0.6s cubic-bezier(0.68, -1, 0.265, 2);
+    -moz-transition: all 0.6s cubic-bezier(0.68, -1, 0.265, 2);
+    -ms-transition: all 0.6s cubic-bezier(0.68, -1, 0.265, 2);
+    -o-transition: all 0.6s cubic-bezier(0.68, -1, 0.265, 2);
+    transition: all 0.6s cubic-bezier(0.68, -1, 0.265, 2);
+}
+.careplus-banner, .careplus-banner-one, .careplus-banner-one-layer {
+    float: left;
+    width: 100%;
+}
+
+.slick-slider {
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-slide img {
+    display: block;
+}
+
+img {
+    border: 0;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.careplus-banner-wrap {
+    bottom: 50%;
+    left: 0;
+    margin: 0 26% -142px;
+    position: absolute;
+    width: 50%;
+}
+
+.careplus-banner-wrap h1 span:last-child {
+    text-align: right;
+    margin: 8px 0 0;
+}
+.careplus-banner-wrap h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.slick-active .careplus-banner-btn {
+    -webkit-animation-name: careplus-banner-btn;
+    animation-name: careplus-banner-btn;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.careplus-banner-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    color: #ffffff;
+    padding: 10px 23px;
+}
+.careplus-banner-btn:hover{color: white;text-decoration: none;}
+.careplus-banner-btn {color: white;}
+.careplus-banner-btn:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+    width: 52px;
+    height: 1px;
+}
+.careplus-banner-btn span {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.careplus-banner-btn span:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-color: #ffffff;
+    width: 52px;
+    height: 1px;
+}
+.careplus-banner-btn span:after {
+    content: '';
+    position: absolute;
+    right: 7px;
+    top: -7px;
+    background-color: #ffffff;
+    width: 1px;
+    height: 32px;
+}
+.careplus-banner-btn:after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    bottom: -7px;
+    background-color: #ffffff;
+    width: 1px;
+    height: 32px;
+}
+
+.careplus-banner-one .container, .careplus-banner-one .row, .careplus-banner-one .col-md-12 {
+    height: 100%;
+}
+.careplus-banner-caption {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}
+.careplus-banner-wrap h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.careplus-banner-wrap h1 span {
+    font-size: 30px;
+    display: block;
+    margin: 0px 0px 2px;
+    letter-spacing: 2px;
+}
+
+.slick-active .careplus-banner-wrap h1 {
+    -webkit-animation-name: banner-wrap;
+    animation-name: banner-wrap;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+.careplus-main-wrapper, .careplus-main-content, .careplus-main-header, .careplus-navigation-section {
+    float: left;
+    width: 100%;
+}
+
+.careplus-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.careplus-services-full {
+    margin: 0px 0px 70px;
+}
+
+.careplus-main-content {
+    padding: 100px 0px 60px 0px;
+}
+.careplus-fancy-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 60px;
+   
+}
+
+.careplus-fancy-title h2 {
+    line-height: 0.7;
+    font-size: 30px;
+    margin: 0px 0px 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.careplus-service-grid ul li:hover .careplus-service-wrap {
+    padding: 38px 0px 34px;
+    background: -webkit-linear-gradient(left, #1d4c4d 0%,#08364b 0%,#08364b 100%,#1d4c4d 100%);
+    background: -moz-linear-gradient(left, #1d4c4d 0%,#08364b 0%,#08364b 100%,#1d4c4d 100%);
+    background: -ms-linear-gradient(left, #1d4c4d 0%,#08364b 0%,#08364b 100%,#1d4c4d 100%);
+    background: -o-linear-gradient(left, #1d4c4d 0%,#08364b 0%,#08364b 100%,#1d4c4d 100%);
+    background: linear-gradient(left, #1d4c4d 0%,#08364b 0%,#08364b 100%,#1d4c4d 100%);
+}
+
+.careplus-service, .careplus-service-wrap {
+    float: left;
+    width: 100%;
+}
+
+.careplus-service-wrap {
+    height: 213px;
+    overflow: hidden;
+    padding: 57px 0px 9px;
+    text-align: center;
+    background: rgb(8,54,75);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(8,54,75,1) 15%, rgba(30,77,77,1) 51%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(8,54,75,1) 15%,rgba(30,77,77,1) 51%);
+    background: radial-gradient(ellipse at center, rgba(8,54,75,1) 15%,rgba(30,77,77,1) 51%);
+}
+
+.careplus-service, .careplus-service-wrap {
+    float: left;
+    width: 100%;
+}
+.careplus-service-wrap p {
+    margin: 0px;
+    color: #ffffff;
+    line-height: 22px;
+    opacity: 0;
+    visibility: hidden;
+}
+.careplus-service > ul > li {
+    list-style: none;
+    margin: 0px 0px 30px;
+}
+
+.careplus-service-wrap h5 {
+    margin: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+.careplus-service-wrap p {
+    margin: 0px;
+    color: #ffffff;
+    line-height: 22px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+.careplus-color-two, .careplus-colorhover-two:hover, .navbar-nav > li:hover > a, .navbar-nav > li.active > a, .careplus-fancy-title span i, .careplus-blog-modern figure a span, .careplus-content-post-title span i, .careplus-content-post .careplus-readmore-btn, .careplus-plane-gallery figure figcaption > a, .widget_contact_info ul li h6, .careplus-blog-grid figure a span, .widget_useful_link ul li:hover a, .careplus-about-service h2 span, .carelus-team-social li a, .careplus-team-modern figure a span, .careplus-blog-option li i, .widget_populer_posts section time i, .careplus-tags a:hover, .careplus-blog-social ul li:hover a, .careplus-prenxt-post ul li:hover .careplus-post-arrow, .text-holder:hover .comment-reply-link, .widget_cetagories ul li:hover a, .widget_populer_posts ul li:hover section h6 a, .careplus-blog-grid-option li:hover a, .careplus-blog-large figure a span, .careplus-blog-large .careplus-blog-option li:hover a, .careplus-blog-large .careplus-blog-option li:hover a i, .careplus-blog-medium-text .careplus-blog-grid-option li a, .careplus-blog-medium figure a span, .careplus-related-team figure a span, .careplus-team-post-text > .careplus-footer-social li:hover a, .careplus-team-list figure a span, .careplus-related-products figure a span, .careplus-shop-grid figure a span, .careplus-shop-list figure a span, .careplus-department-grid figure a span, .careplus-department-list figure a > span, .careplus-error-btn, .careplus-search-result-text form input[type="submit"]
+
+
+
+
+
+
+
+
+.careplus-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.careplus-team-mediumfull {
+    padding: 0px 0px 0px;
+    margin: 56px 0px 70px;
+}
+
+
+.careplus-team-medium .careplus-readmore-btn:before, .careplus-team-medium .careplus-readmore-btn:after, .careplus-team-medium .careplus-readmore-btn span:before, .careplus-team-medium .careplus-readmore-btn span:after {
+    background-color: #ffffff;
+}
+
+
+
+
+
+/*--section 2--*/
+
+
+.careplus-team, .careplus-team-medium, .careplus-team-medium figure, .careplus-team-medium figure > a, .careplus-team-medium figure a img {
+    float: left;
+    width: 40%;
+}
+
+.careplus-team-medium figure {
+    margin: 0px;
+    padding: 94px 0px 0px;
+    height: 419px !important;
+}
+
+.careplus-team > ul > li {
+    list-style: none;
+    margin: 0px 0px 30px;
+}
+
+.careplus-team > ul > li {
+    list-style: none;
+    margin: 0px 0px 30px;
+}
+
+.careplus-team > ul > li {
+    list-style: none;
+    margin: 0px 0px 30px;
+}
+
+.careplus-team-medium ul li:hover .careplus-team-medium-text {
+    -webkit-transform: translateY(-86px);
+    -moz-transform: translateY(-86px);
+    -ms-transform: translateY(-86px);
+    -o-transform: translateY(-86px);
+    transform: translateY(-103px);
+    padding: 31px 19px;
+}
+.careplus-team-medium ul li:hover .careplus-team-medium-text {
+    visibility: visible;
+    opacity: 1;
+}
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin-top: 18px;
+}
+
+
+@media (min-width: 992px)
+.col-md-3 {
+    width: 25%;
+}
+.careplus-team-medium figure {
+    margin: 0px;
+    padding: 94px 0px 0px;
+}
+
+a {
+    color: #555555;
+    text-decoration: none;
+}
+
+
+
+.careplus-team-medium figure figcaption {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+
