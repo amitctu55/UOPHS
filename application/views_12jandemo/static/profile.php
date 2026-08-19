@@ -11,17 +11,17 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   <link href="https://www.upcharr.com/dev/css/datepicker.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/bootstrap.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/font-awesome.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/flaticon.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/slick-slider.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/fancybox.css" rel="stylesheet">
-     <link href="https://www.upcharr.com/dev/css/coustm.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/style.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/color.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/style.css" rel="stylesheet">
-    <link href="https://www.upcharr.com/dev/css/responsive.css" rel="stylesheet">
+   <link href="https://www.upchar.info/dev/css/datepicker.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/font-awesome.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/flaticon.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/slick-slider.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/fancybox.css" rel="stylesheet">
+     <link href="https://www.upchar.info/dev/css/coustm.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/style.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/color.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/style.css" rel="stylesheet">
+    <link href="https://www.upchar.info/dev/css/responsive.css" rel="stylesheet">
     
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -64,7 +64,7 @@ color: #fff;}
             <div class="careplus-main-header">
                 <div class="container">
                     <div class="row">
-                        <aside class="col-md-3"><a href="https://www.upcharr.com/dev/" class="careplus-logo"><img src="https://www.upcharr.com/dev/images/logo.png" alt=""></a></aside>
+                        <aside class="col-md-3"><a href="https://www.upchar.info/dev/" class="careplus-logo"><img src="https://www.upchar.info/dev/images/logo.png" alt=""></a></aside>
                         <aside class="col-md-9">
                             <ul class="careplus-infolist">
                                 <li>
@@ -105,7 +105,7 @@ color: #fff;}
                                 <li><a href="#"><span>View Update Profile</span></a></li>
 								  <li><a href="change_password.php"><span>Change Password</span></a></li>
                                 <li><a href="#"><span>Setting</span></a></li>
-                                <li><a href="https://www.upcharr.com/dev/User/logout"><span>Logout</span></a></li>
+                                <li><a href="https://www.upchar.info/dev/User/logout"><span>Logout</span></a></li>
                             </ul>
                       
                       </div>
@@ -135,7 +135,7 @@ color: #fff;}
                                     </div>
                                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                       <ul class="nav navbar-nav">
-                                        <li class="active"><a href="https://www.upcharr.com/dev/">Home</a></li>
+                                        <li class="active"><a href="https://www.upchar.info/dev/">Home</a></li>
                                         <li><a href="#">Gallery</a>
                                             <ul class="careplus-dropdown-menu">
                                                 <li><a href="appointment.php">Time Table</a></li>
@@ -175,7 +175,7 @@ color: #fff;}
                                             </ul>
                                         </li>
                                         -->
-                                         <li class="careplus-megamenu-li"><a href="https://www.upcharr.com/dev/doctors">Our Doctor</a></li>
+                                         <li class="careplus-megamenu-li"><a href="https://www.upchar.info/dev/doctors">Our Doctor</a></li>
                                         <li class="careplus-megamenu-li"><a href="#">Our Services</a>
                                             <ul class="careplus-megamenu">
                                                 <li class="row">
@@ -214,7 +214,7 @@ color: #fff;}
                                                     </div>
                                                     <div class="col-md-6">
                                                         <a href="#" class="careplus-thumbnail">
-                                                            <img src="https://www.upcharr.com/dev/extra-images/megamenu-frame.jpg" alt="">
+                                                            <img src="https://www.upchar.info/dev/extra-images/megamenu-frame.jpg" alt="">
                                                         </a>
                                                     </div>
                                                 </li>
@@ -253,7 +253,7 @@ color: #fff;}
 <div class="careplus-banner">
 <div class="container-fluid">
             <div class="row">
-			<form action='https://www.upcharr.com/dev/search' method='GET'>
+			<form action='https://www.upchar.info/dev/search' method='GET'>
                 <div class="box-form">
                     	
 						<div class="col-md-12">
@@ -381,7 +381,7 @@ color: #fff;}
                     <div class="row">
                         <!--// Widget Contact Info \\-->
                         <aside class="col-md-4 widget widget_contact_info">
-                            <a href="index.html" class="footer-logo"><img src="https://www.upcharr.com/dev/images/footer-logo.png" alt=""></a>
+                            <a href="index.html" class="footer-logo"><img src="https://www.upchar.info/dev/images/footer-logo.png" alt=""></a>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisci elit. Sed et elementum nulla, eu placerat felis. Et mtin orci lacus, id varius.Nunc ut volutpat ex. Morbi risus elit, mattis in mi ne mollis blandit erat.</p>
                             
                         </aside>
@@ -486,7 +486,7 @@ color: #fff;}
         
         <div class="modal-body">
          <div class="col-sm-6 borders confer">
- <form method='post' action='https://www.upcharr.com/dev/home/bookappointment' id='app_conf_form'>
+ <form method='post' action='https://www.upchar.info/dev/home/bookappointment' id='app_conf_form'>
             <div class="careplus-fancy-titles">
                                 <h2>Confirm Appointment</h2>
                                 <input value="" type="hidden" id="app_conf_pop_doctorid"  name="app_doctor" class="form-control">
@@ -605,7 +605,7 @@ color: #fff;}
 }
 	</script>
 
-    <script type="text/javascript" src="https://www.upcharr.com/dev/css/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="https://www.upchar.info/dev/css/bootstrap-datepicker.js"></script>
    <!-- <script type="text/javascript" src="script/jquery.js"></script>
     <script type="text/javascript" src="script/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/slick.slider.min.js"></script>
@@ -628,7 +628,7 @@ color: #fff;}
 			success: function( response ) {			
 				response = JSON.parse(response);				
 				if(response.status=='success'){					
-					window.location="https://www.upcharr.com/dev/verifymobile";				
+					window.location="https://www.upchar.info/dev/verifymobile";				
 				}				
 				else if(response.status=='failed'){					
 					alert(response.msg);									
@@ -653,10 +653,10 @@ color: #fff;}
 				response = JSON.parse(response);				
 				if(response.status=='success'){
 				//location.reload();	
-				window.location="https://www.upcharr.com/dev/";		
+				window.location="https://www.upchar.info/dev/";		
 				}				
 				else if(response.status=='otp'){					
-					window.location="https://www.upcharr.com/dev/verifymobile";								
+					window.location="https://www.upchar.info/dev/verifymobile";								
 				}
 				else if(response.status=='failed'){					
 					alert(response.msg);									
@@ -680,8 +680,8 @@ color: #fff;}
 			success: function( response ) {				 
 				response = JSON.parse(response);				
 				if(response.status=='success'){
-				//window.location="https://www.upcharr.com/dev/";	
-				//window.location="https://www.upcharr.com/dev/verifymobileforgot";	
+				//window.location="https://www.upchar.info/dev/";	
+				//window.location="https://www.upchar.info/dev/verifymobileforgot";	
 				$('#forgotform').hide();
 				$('#forgototpform').show();
 				}else{					
@@ -705,8 +705,8 @@ color: #fff;}
 		success: function( response ) {				
 			response = JSON.parse(response);				
 			if(response.status=='success'){										
-				//window.location="https://www.upcharr.com/dev/";
-				window.location="https://www.upcharr.com/dev/";					
+				//window.location="https://www.upchar.info/dev/";
+				window.location="https://www.upchar.info/dev/";					
 			}else if(response.status=='failed'){					
 				alert(response.msg);									
 			}else{
@@ -727,8 +727,8 @@ color: #fff;}
 		success: function( response ) {				
 			response = JSON.parse(response);				
 			if(response.status=='success'){										
-				//window.location="https://www.upcharr.com/dev/";
-				//window.location="https://www.upcharr.com/dev/";
+				//window.location="https://www.upchar.info/dev/";
+				//window.location="https://www.upchar.info/dev/";
 				$('#forgototpform').hide();
 				$('#forgotnewpassform').show();
 			}else if(response.status=='failed'){					
@@ -751,8 +751,8 @@ color: #fff;}
 		success: function( response ) {				
 			response = JSON.parse(response);				
 			if(response.status=='success'){										
-				window.location="https://www.upcharr.com/dev/login";
-				//window.location="https://www.upcharr.com/dev/";
+				window.location="https://www.upchar.info/dev/login";
+				//window.location="https://www.upchar.info/dev/";
 				//$('#forgototpform').hide();
 				//$('#forgotnewpassform').show();
 			}else if(response.status=='failed'){					
@@ -777,7 +777,7 @@ color: #fff;}
 			  type: "POST",
 			  //data: {id : menuId},
 			  //dataType: "html"
-              url: "https://www.upcharr.com/dev/home/app_conf_pop_doctor?doctor="+did,
+              url: "https://www.upchar.info/dev/home/app_conf_pop_doctor?doctor="+did,
               success: function( data ) {
 				  $('#app_conf_pop_doctor').html(data);
 			  }
@@ -786,7 +786,7 @@ color: #fff;}
 			  type: "POST",
 			 // data: {id : menuId},
 			  //dataType: "html"
-              url: "https://www.upcharr.com/dev/home/app_conf_pop_date?doctor="+did,
+              url: "https://www.upchar.info/dev/home/app_conf_pop_date?doctor="+did,
               success: function( data ) {
 				  $('#app_conf_pop_date').html(data);
 			  }
@@ -803,7 +803,7 @@ color: #fff;}
 			
 		 $.ajax({
 			  type: "POST",
-              url: "https://www.upcharr.com/dev/home/app_conf_pop_time?doctor="+did+"&date="+date,
+              url: "https://www.upchar.info/dev/home/app_conf_pop_time?doctor="+did+"&date="+date,
               success: function( data ) {
 				  $('#app_conf_pop_time').html(data);
 			  }
@@ -818,7 +818,7 @@ color: #fff;}
 			
 		 $.ajax({
 			  type: "POST",
-              url: "https://www.upcharr.com/dev/home/app_conf_pop_institute?doctor="+did+"&date="+date+"&time="+time,
+              url: "https://www.upchar.info/dev/home/app_conf_pop_institute?doctor="+did+"&date="+date+"&time="+time,
               success: function( data ) {
 				  $('#app_conf_pop_institute').html(data);
 			  }
@@ -838,7 +838,7 @@ color: #fff;}
 		//send otp
 		  $.ajax({
 			  type: "POST",
-              url: "https://www.upcharr.com/dev/home/app_conf_pop_otpgen",
+              url: "https://www.upchar.info/dev/home/app_conf_pop_otpgen",
 			  data: 'mobile=' + mobile, 
               success: function( data ) {
 				  //$('#app_conf_pop_institute').html(data);
@@ -888,7 +888,7 @@ color: #fff;}
 				 minLength: 1,
                 source: function( request, response ) {
                     $.ajax({
-                        url: "https://www.upcharr.com/dev/gethint",
+                        url: "https://www.upchar.info/dev/gethint",
                         dataType: "json",
                         data: {
                             q: request.term
@@ -915,7 +915,7 @@ color: #fff;}
 				minLength: 1,
                 source: function( request, response ) {
                     $.ajax({
-                        url: "https://www.upcharr.com/dev/gethintcity",
+                        url: "https://www.upchar.info/dev/gethintcity",
                         dataType: "json",
                         data: {
                             q: request.term

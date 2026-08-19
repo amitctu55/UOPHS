@@ -166,7 +166,7 @@
                                         <div class="col-md-9">
                                              <h5>Looking For Doctors </h5>
                                             
-                                              <a href="https://www.upcharr.com/search?location=&city=&keyword=&spl=" class="BOOKBTN"><i class="fa fa-search" style="margin-right:6px;" aria-hidden="true"></i> Doctors</a>
+                                              <a href="https://www.upchar.info/search?location=&city=&keyword=&spl=" class="BOOKBTN"><i class="fa fa-search" style="margin-right:6px;" aria-hidden="true"></i> Doctors</a>
                                         </div>
                                          </div>
                                          
@@ -182,7 +182,7 @@
                                         <div class="col-md-9">
                                              <h5>Looking For Hospital </h5>
                                            
-                                              <a href="https://www.upcharr.com/hospitallist" class="BOOKBTN"><i class="fa fa-search" style="margin-right:6px;" aria-hidden="true"></i> Hospital</a>
+                                              <a href="https://www.upchar.info/hospitallist" class="BOOKBTN"><i class="fa fa-search" style="margin-right:6px;" aria-hidden="true"></i> Hospital</a>
                                         </div>
                                          </div>
                                          

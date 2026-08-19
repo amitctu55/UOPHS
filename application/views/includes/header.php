@@ -187,7 +187,7 @@ color: #fff;}
         
          <?php if ($this->session->userdata('userid')==''){ ?>
        <li>
-          <a href="https://upcharrnews.blogspot.com/" target="_blank"><i class="fas fa-newspaper iconEffect"></i> Blog</a>
+          <a href="https://upcharnews.blogspot.com/" target="_blank"><i class="fas fa-newspaper iconEffect"></i> Blog</a>
       </li>
       <!--
       <li>

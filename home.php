@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>||  Welcome to upcharr ||</title>
+  <title>||  Welcome to upchar ||</title>
   <meta charset="utf-8">
   <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +42,7 @@ color: #fff;}
 
 <div class="container">
 <div class="row">
-                        <aside class="col-md-3 logocont"><a href="https://www.upcharr.com/" class="careplus-logo"><img src="images/upchar-logo.png" style="height: 155px;" alt=""></a></aside>
+                        <aside class="col-md-3 logocont"><a href="https://www.upchar.info/" class="careplus-logo"><img src="images/upchar-logo.png" style="height: 155px;" alt=""></a></aside>
 
                         <aside class="col-md-9">
                                   <h2 class="sitename"><b>Upchar One Place of Healthcare</b></h2>
@@ -53,7 +53,7 @@ color: #fff;}
   <button type="button" class="btn topmenu"><i class="fas fa-calendar-alt"> </i> Appointment</button>
   <button type="button" class="btn topmenu"><i class="far fa-handshake"></i> Upchar Partner</button>
   <a href="#" class="showPartners"><button type="button" class="btn topmenu">Partner</button></a>
-    <a href="https://www.upcharr.com/signup" class="showPartners"><button type="button" class="btn topmenu"><i class="fas fa-user"></i> Login / <i class="fas fa-sign-in-alt"></i> Sign Up</button>
+    <a href="https://www.upchar.info/signup" class="showPartners"><button type="button" class="btn topmenu"><i class="fas fa-user"></i> Login / <i class="fas fa-sign-in-alt"></i> Sign Up</button>
 </div>
 
 
@@ -130,8 +130,8 @@ color: #fff;}
                     
                                     <div class="collapse navbar-collapse" id="navbar-collapse-1">
                                      <!-- <ul class="nav navbar-nav" style="display: table;content: " ";">
-                                        <li class="active"><a href="https://www.upcharr.com/">Home</a></li>
-                                        <li><a href="https://www.upcharr.com/search?location=&amp;city=&amp;keyword=&amp;spl=">Appointment</a>
+                                        <li class="active"><a href="https://www.upchar.info/">Home</a></li>
+                                        <li><a href="https://www.upchar.info/search?location=&amp;city=&amp;keyword=&amp;spl=">Appointment</a>
                                             <ul class="careplus-dropdown-menu">
                                                                                            
                                             </ul>
@@ -169,7 +169,7 @@ color: #fff;}
                                             </ul>
                                         </li>
                                         
-                                         <li class="careplus-megamenu-li"><a href="https://www.upcharr.com/doctors">Our Doctor</a></li>
+                                         <li class="careplus-megamenu-li"><a href="https://www.upchar.info/doctors">Our Doctor</a></li>
                                         <li class="careplus-megamenu-li"><a href="#">Our Services</a>
                                             <ul class="careplus-megamenu">
                                                 <li class="row">
@@ -198,7 +198,7 @@ color: #fff;}
                                                     </div>
                                                     <div class="col-md-6">
                                                         <a href="#" class="careplus-thumbnail">
-                                                            <img src="https://www.upcharr.com/extra-images/megamenu-frame.jpg" alt="">
+                                                            <img src="https://www.upchar.info/extra-images/megamenu-frame.jpg" alt="">
                                                         </a>
                                                     </div>
                                                 </li>
@@ -220,8 +220,8 @@ color: #fff;}
                                     </li>--> 
                                    <!--- <li>
                                       <div class="login">               
-                                        <a href="https://www.upcharr.com/login">Login </a>
-                                        <a href="https://www.upcharr.com/signup">/ Sign Up</a>                  
+                                        <a href="https://www.upchar.info/login">Login </a>
+                                        <a href="https://www.upchar.info/signup">/ Sign Up</a>                  
                                   
                                     </div>
                                   </li>
@@ -241,7 +241,7 @@ color: #fff;}
 
 
 
-<form action="https://www.upcharr.com/search" method="GET">
+<form action="https://www.upchar.info/search" method="GET">
                 <div class="box-form">
                       
       
@@ -1133,7 +1133,7 @@ color: #fff;}
                         
                          <aside class="col-md-4 widget widget_contact_info">
                             <h2 class="careplus-footer-title">Draft About Us</h2>
-                            <p>GYANTECH International Private Limited (“UPCHARR”) is the author and publisher of the internet resource http://www.upcharr.com and the mobile application ‘Upchar’ (together, “Website”). Upcharr owns and operates the services provided through the Website..
+                            <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..
                          <a href="aboutus.php" class="careplus-readmore-btn">read more <span></span></a>   </p>
                         </aside>
 
@@ -1154,7 +1154,7 @@ color: #fff;}
                                 <li><a href="404.html">Prostheses</a></li>
                                 <li><a href="404.html">Patient Reports</a></li>
                                 <li><a href="404.html">Traumatology</a></li>
-                                <li><a href="https://www.upcharr.com/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
+                                <li><a href="https://www.upchar.info/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
                             </ul>
                         </aside>
                         <!--// Widget Useful Link \\-->
@@ -1169,7 +1169,7 @@ color: #fff;}
                                 </li>
                                 <li>
                                     <h6>Mail Us At:</h6>
-                                    <a href="mailto:yourdomain@name.com">hello@upcharr.com - info@upcharr.com</a>
+                                    <a href="mailto:yourdomain@name.com">hello@upchar.info - info@upchar.info</a>
                                 </li>
                                 <li>
                                     <h6>Our Location:</h6>

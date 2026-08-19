@@ -133,7 +133,7 @@
 	<link rel="stylesheet" type="text/css"  href='https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css'>
 
 		<script src='https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js'></script>
-		<link rel="stylesheet" type="text/css"  href='https://www.upcharr.com/css/coustm.css'>		
+		<link rel="stylesheet" type="text/css"  href='https://www.upchar.info/css/coustm.css'>		
 		
 		<style>		
 		

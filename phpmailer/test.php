@@ -4,15 +4,15 @@ require 'class.phpmailer.php';
 $mail = new PHPMailer;
 
 $mail->IsSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'mail.upcharr.com';                 // Specify main and backup server
+$mail->Host = 'mail.upchar.info';                 // Specify main and backup server
 $mail->Port = 2525;                                    // Set the SMTP port
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'upcharr@upcharr.com';                // SMTP username
+$mail->Username = 'upchar@upchar.info';                // SMTP username
 $mail->Password = 'swati@123';                  // SMTP password
 $mail->SMTPSecure = 'plain';                            // Enable encryption, 'ssl' also accepted
 
-$mail->From = 'upcharr@upcharr.com';
-$mail->FromName = 'Upcharr';
+$mail->From = 'upchar@upchar.info';
+$mail->FromName = 'Upchar';
 $mail->AddAddress('gyantech.vns@gmail.com');  // Add a recipient
 $mail->AddAddress('recepientmail ID');               // Name is optional
 

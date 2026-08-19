@@ -387,7 +387,7 @@ color: #fff;}
  
 
   <li>
-  <a href="https://upcharrnews.blogspot.com/" target="_blank"><i class="fas fa-newspaper iconEffect"></i> Blog</a>
+  <a href="https://upcharnews.blogspot.com/" target="_blank"><i class="fas fa-newspaper iconEffect"></i> Blog</a>
   </li>
       <li>
           <a href="<?=base_url('login');?>"><i class="fa fa-sign-in iconEffect" aria-hidden="true"></i> Login / <i class="fas fa-user-plus iconEffect"></i> Sign Up </a>

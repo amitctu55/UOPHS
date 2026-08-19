@@ -11,9 +11,9 @@
 		const DB_L = "sichermart";
 	
 		const DB_SERVER = 'localhost';
-		const DB_USER = 'upcharr_live';
-		const DB_PASSWORD = 'upcharr_live';
-		const DB = 'upcharr_live';
+		const DB_USER = 'upchar_live';
+		const DB_PASSWORD = 'upchar_live';
+		const DB = 'upchar_live';
 		
 		
 		const DB_PREFIX = '';
@@ -86,7 +86,7 @@
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 					$error = array('status' => "Success", "msg" => "User not Verified","otp"=>$otp,"data" => $row);
@@ -360,7 +360,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 						if(!empty($data['mobile_type']) and !empty($data['notification_token'])){
@@ -485,7 +485,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 					$error = array('status' => "Success", "msg" => "User not Verified","otp"=>$otp,"data" => $row);
@@ -590,7 +590,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 						if(!empty($data['mobile_type']) and !empty($data['notification_token'])){
@@ -715,7 +715,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 					$error = array('status' => "Success", "msg" => "User not Verified","otp"=>$otp,"data" => $row);
@@ -820,7 +820,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 						if(!empty($data['mobile_type']) and !empty($data['notification_token'])){
@@ -945,7 +945,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 					$error = array('status' => "Success", "msg" => "User not Verified","otp"=>$otp,"data" => $row);
@@ -1050,7 +1050,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 						if(!empty($data['mobile_type']) and !empty($data['notification_token'])){
@@ -1175,7 +1175,7 @@ return $result;
 						//send otp
 						$msg="Dear ".$name[0].",
 	Thank you for registration, Verification OTP is $otp
-	UPCHARR";
+	UPCHAR";
 						$this->sendsms($msg,$data['mobile']);
 						
 					$error = array('status' => "Success", "msg" => "User not Verified","otp"=>$otp,"data" => $row);

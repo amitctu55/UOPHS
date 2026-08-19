@@ -325,7 +325,7 @@ class Home extends CI_Controller {
 		$mobile=$this->input->post('mobile');
 		$this->session->set_userdata('app_otp',$otp);
 		$msg="Your One Time Password is $otp
-	WWW.UPCHAR.COM";
+	WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 			echo 'OK';
 	}
@@ -390,7 +390,7 @@ class Home extends CI_Controller {
 		$this->db->insert('appointment',$idata);
 		$aid=$this->db->insert_id();
 		$msg="Your Appoint booked successfully! Appointment ID# $aid
-	WWW.UPCHAR.COM";
+	WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 			echo 'OK';
 		

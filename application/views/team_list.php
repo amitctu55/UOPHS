@@ -490,8 +490,8 @@ small photos close--*/
 									
 									</li>
 									<?php } ?>
-                                  <!--  <li class="smallImg"><a href="https://www.upcharr.com/images/images.jpg"><img src="images/images.jpg" alt=""></a></li>
-                                    <li class="smallImg"><a href="https://www.upcharr.com/extra-images/blog-grid-img1.jpg"><img src="extra-images/blog-grid-img1.jpg" alt=""></a></li>
+                                  <!--  <li class="smallImg"><a href="https://www.upchar.info/images/images.jpg"><img src="images/images.jpg" alt=""></a></li>
+                                    <li class="smallImg"><a href="https://www.upchar.info/extra-images/blog-grid-img1.jpg"><img src="extra-images/blog-grid-img1.jpg" alt=""></a></li>
                                  -->                               
 							   </ul>
                                 
@@ -620,7 +620,7 @@ small photos close--*/
 		 
 	
 		 
-		  <li class="col-md-6"><a href="https://upcharrnews.blogspot.com" class="colorwhite"><i class="far fa-comments colorwhite"></i><br> Give Your Feedback</a></li> 
+		  <li class="col-md-6"><a href="https://upcharnews.blogspot.com" class="colorwhite"><i class="far fa-comments colorwhite"></i><br> Give Your Feedback</a></li> 
 		  <li class="col-md-12"><a href="#" class="colorwhite" style=""><i class="fas fa-map-marker-alt colorwhite"></i><br> <?=$institution->address;?></a></li>
 		  
 		 

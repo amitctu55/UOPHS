@@ -54,7 +54,7 @@ class Hospitaluser_Model extends CI_Model {
 				$this->session->set_userdata('hosforgotuserid', $row->USERID);
 				$msg="Dear ".$row->FNAME.",
 	 OTP to change password is $otp
-	UPCHARR";
+	UPCHAR";
 			sendsms($msg,$row->MOBILE);
 				return 'SUCCESS';
 			}
@@ -90,7 +90,7 @@ class Hospitaluser_Model extends CI_Model {
 				//$this->session->set_userdata('hosforgotuserid', $row->USERID);
 				$msg="Dear ".$row->FNAME.",
 	 Your One Time Password is $otp
-	UPCHARR";
+	UPCHAR";
 			sendsms($msg,$row->MOBILE);
 				return 'SUCCESS';
 			}
@@ -235,7 +235,7 @@ thank you for being a part of Upchar.";
 			$fname=$name[0];
 			$lname=@$name[1];
 			$otp=rand(100000,999999);
-			$msg="Dear ".$name[0].", Wecome to Upcharr medical solutions. Your otp is $otp
+			$msg="Dear ".$name[0].", Wecome to Upchar medical solutions. Your otp is $otp
 thank you for being a part of Upchar.";
 			sendsms($msg,$mobile);
 			$udata=array(
@@ -297,7 +297,7 @@ thank you for being a part of Upchar.";
 				$this->session->set_userdata('hosforgotuserid', $row->USERID);
 				$msg="Dear ".$row->FNAME.",
 	 OTP to change password is $otp
-	UPCHARR";
+	UPCHAR";
 			sendsms($msg,$row->MOBILE);
 				return 'SUCCESS';
 			}

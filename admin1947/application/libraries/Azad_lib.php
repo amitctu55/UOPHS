@@ -35,9 +35,9 @@ mail($to,$subject,$body);
 		
 		$setting->smtpserver ='noc1-us.cpanelurl.com';
 		$setting->smtpport ='465';
-		$setting->smtpuser ='info@upcharr.com';
+		$setting->smtpuser ='info@upchar.info';
 		$setting->smtppass ='}A^(B{OVJ=KY';
-		$setting->fromemail ='info@upcharr.com';
+		$setting->fromemail ='info@upchar.info';
 	if(strlen($body) < 30)
 	$templateid=$body;
 	$templatefile='public/assets/templates/'.$templateid.'.html';

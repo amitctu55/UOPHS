@@ -22,7 +22,7 @@ class Google extends CI_Controller
 		
 		// Google Client Configuration
         $gClient = new Google_Client();
-        $gClient->setApplicationName('Upcharr');
+        $gClient->setApplicationName('Upchar');
         $gClient->setClientId($clientId);
         $gClient->setClientSecret($clientSecret);
         $gClient->setRedirectUri($redirectUrl);

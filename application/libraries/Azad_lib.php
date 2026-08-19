@@ -33,11 +33,11 @@ public function sendMail($to,$subject,$body,$variables=array(),$attachment='')
 //mail($to,$subject,$body);
 	 //$setting = $this->CI->db->get_where('setting_smtp',array('id','1'))->row();	
 		$setting = new stdClass();
-		$setting->smtpserver ='mail.upcharr.com';
+		$setting->smtpserver ='mail.upchar.info';
 		$setting->smtpport ='465';
-		$setting->smtpuser ='upcharr@upcharr.com';
+		$setting->smtpuser ='upchar@upchar.info';
 		$setting->smtppass ='swati@123';//'admin123456';
-		$setting->fromemail ='upcharr@upcharr.com';
+		$setting->fromemail ='upchar@upchar.info';
 	if(strlen($body) < 30)
 	$templateid=$body;
 	$templatefile='templates/'.@$templateid.'.html';
