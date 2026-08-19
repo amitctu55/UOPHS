@@ -755,7 +755,7 @@ class Webservicescidoc extends CI_Controller {
 		$this->db->insert('appointment',$idata);
 		$aid=$this->db->insert_id();
 		$msg="Your Appoint booked successfully! Appointment ID# $aid
-	WWW.UPCHAR.COM";
+	WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 		$response=array('status'=>'success','msg'=>'Book Successfully','appointmentid'=>$aid);
 		 

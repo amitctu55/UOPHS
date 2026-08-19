@@ -16,9 +16,9 @@
 		const DB_L = "sichermart";
 	
 		const DB_SERVER = 'localhost';
-		const DB_USER = 'upcharr_live';
-		const DB_PASSWORD = 'upcharr_live';
-		const DB = 'upcharr_live';
+		const DB_USER = 'upchar_live';
+		const DB_PASSWORD = 'upchar_live';
+		const DB = 'upchar_live';
 		
 		
 		const DB_PREFIX = '';

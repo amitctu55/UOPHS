@@ -78,7 +78,7 @@
               
         
 	<div class="front">
-	     <img src="https://www.upcharr.com/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
+	     <img src="https://www.upchar.info/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
 	    <h3>St. Stiphan</h3>
         <p>MBBS</p>
         <p>2 years experience</p>
@@ -115,7 +115,7 @@
               
         
 	<div class="front">
-	     <img src="https://www.upcharr.com/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
+	     <img src="https://www.upchar.info/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
 	    <h3>St. Stiphan</h3>
         <p>MBBS</p>
         <p>2 years experience</p>
@@ -150,7 +150,7 @@
               
         
 	<div class="front">
-	     <img src="https://www.upcharr.com/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
+	     <img src="https://www.upchar.info/images/logo.png" class="img-circle" alt="upchar Hospital" style="height: 159px;">
 	    <h3>St. Stiphan</h3>
         <p>MBBS</p>
         <p>2 years experience</p>

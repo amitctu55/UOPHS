@@ -125,7 +125,7 @@
 <p class="detailsinfo"><i class="fa fa-location-arrow colmd4icon" aria-hidden="true"></i> <strong><?=$hospital->address;?></strong></p>
 
 <p class="detailsinfo">
-    <a href='mailto:info@upcharr.com'><i class="fa fa-envelope colmd4icon" aria-hidden="true"></i> Send Enquiry By Email</a></p>
+    <a href='mailto:info@upchar.info'><i class="fa fa-envelope colmd4icon" aria-hidden="true"></i> Send Enquiry By Email</a></p>
   </div>
   
        

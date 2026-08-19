@@ -1,7 +1,7 @@
-# Project Status Report - UPCHARR Healthcare Platform
+# Project Status Report - UPCHAR Healthcare Platform
 
 **Report Date:** 2024  
-**Project:** UPCHARR Healthcare Management System  
+**Project:** UPCHAR Healthcare Management System  
 **Framework:** CodeIgniter 3.x (PHP)  
 **Status:** ⚠️ LEGACY SYSTEM - REQUIRES IMMEDIATE ATTENTION
 
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-The UPCHARR platform is a comprehensive healthcare management system built on CodeIgniter 3.x that connects patients with healthcare providers (doctors, hospitals, pathlabs, and medical stores). The system is **functional but critically outdated** with significant technical debt, security vulnerabilities, and missing modern features.
+The UPCHAR platform is a comprehensive healthcare management system built on CodeIgniter 3.x that connects patients with healthcare providers (doctors, hospitals, pathlabs, and medical stores). The system is **functional but critically outdated** with significant technical debt, security vulnerabilities, and missing modern features.
 
 ### Overall Health Score: 4/10 🔴
 
@@ -309,7 +309,7 @@ The UPCHARR platform is a comprehensive healthcare management system built on Co
 │  │  └─ CodeIgniter 3.x           │  │
 │  ├───────────────────────────────┤  │
 │  │  MySQL Database               │  │
-│  │  └─ upcharr_live              │  │
+│  │  └─ upchar_live              │  │
 │  ├───────────────────────────────┤  │
 │  │  File Storage (Local)         │  │
 │  │  └─ /admin1947/public/assets/ │  │
@@ -618,7 +618,7 @@ The UPCHARR platform is a comprehensive healthcare management system built on Co
 
 ## 11. Conclusion
 
-The UPCHARR platform has a solid foundation with core healthcare management features implemented. However, the system suffers from **critical security vulnerabilities**, **significant technical debt**, and **outdated architecture** that require immediate attention.
+The UPCHAR platform has a solid foundation with core healthcare management features implemented. However, the system suffers from **critical security vulnerabilities**, **significant technical debt**, and **outdated architecture** that require immediate attention.
 
 **Key Takeaways:**
 1. Security must be the top priority (P0)

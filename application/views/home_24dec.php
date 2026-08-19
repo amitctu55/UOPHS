@@ -594,7 +594,7 @@
                         
                          <aside class="col-md-4 widget widget_contact_info">
                             <h2 class="careplus-footer-title">Draft About Us</h2>
-                            <p>GYANTECH International Private Limited (“UPCHARR”) is the author and publisher of the internet resource http://www.upcharr.com and the mobile application ‘Upchar’ (together, “Website”). Upcharr owns and operates the services provided through the Website..
+                            <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..
                          <a href="aboutus.php" class="careplus-readmore-btn">read more <span></span></a>   </p>
                         </aside>
 
@@ -625,7 +625,7 @@
                                 </li>
                                 <li>
                                     <h6>Mail Us At:</h6>
-                                    <a href="mailto:yourdomain@name.com">hello@upcharr.com - info@upcharr.com</a>
+                                    <a href="mailto:yourdomain@name.com">hello@upchar.info - info@upchar.info</a>
                                 </li>
                                 <li>
                                     <h6>Our Location:</h6>

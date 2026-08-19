@@ -154,7 +154,7 @@ class Paysecure extends CI_Controller {
 
 		$msg="Your Appointment booked successfully! Appointment# $aid
 			Please Pay the Fee Rs. $ordertotal at Counter,  Request# $OrderId
-			WWW.UPCHARR.COM";
+			WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 
 		$updatedata=array('PAYMENT_STATUS'=>'COC');
@@ -166,8 +166,8 @@ class Paysecure extends CI_Controller {
 		$this->db->update('appointment',$updateuserdata);
 			
 			$this->load->library('azad_lib');
-			$body="Thank You  <BR>   Email: info@upcharr.com  ";
-			$this->azad_lib->sendMail('info@upcharr.com','Thanks for book appointment ',$body);
+			$body="Thank You  <BR>   Email: info@upchar.info  ";
+			$this->azad_lib->sendMail('info@upchar.info','Thanks for book appointment ',$body);
 		
 		$this->session->unset_userdata('SecurePay');
 		$this->session->unset_userdata('AppointmentCheckout');
@@ -301,7 +301,7 @@ class Paysecure extends CI_Controller {
 
 			$msg="Your Appointment booked successfully! Appointment# $aid
 			Payment of Rs $Amount Received Successfully vied Order# $OrderId
-			WWW.UPCHARR.COM";
+			WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 			
 			
@@ -333,8 +333,8 @@ class Paysecure extends CI_Controller {
 		$this->db->update('appointment',$updateuserdata);
 
           $this->load->library('azad_lib');
-			$body="Thank You  <BR>   Email: info@upcharr.com  ";
-			$this->azad_lib->sendMail('info@upcharr.com','Thanks for book appointment ',$body); 
+			$body="Thank You  <BR>   Email: info@upchar.info  ";
+			$this->azad_lib->sendMail('info@upchar.info','Thanks for book appointment ',$body); 
     
 		$this->session->set_flashdata('pgresponse', 'Thank you! Payment Successful The Appointment detail has been sent to the registered  mobile no.');
 
@@ -499,7 +499,7 @@ class Paysecure extends CI_Controller {
 
 			$msg="Your Appointment booked successfully! Appointment# $aid
 			Payment of Rs $Amount Received Successfully vied Order# $OrderId
-			WWW.UPCHARR.COM";
+			WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 
 			//--------------------START code for the delivery and entry of codes-----------------------------------
@@ -527,8 +527,8 @@ class Paysecure extends CI_Controller {
 		$this->db->update('appointment',$updateuserdata);
  
           $this->load->library('azad_lib');
-			$body="Thank You  <BR>   Email: info@upcharr.com  ";
-			$this->azad_lib->sendMail('info@upcharr.com','Thanks for book appointment ',$body);
+			$body="Thank You  <BR>   Email: info@upchar.info  ";
+			$this->azad_lib->sendMail('info@upchar.info','Thanks for book appointment ',$body);
 		//$this->session->set_flashdata('pgresponse', 'Thank you! Payment Successful The Appointment detail has been sent to the registered  mobile no.');
 
 			//-------------------------End code for delivery and entry of codes -----------------------------

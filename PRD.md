@@ -1,8 +1,8 @@
-# Product Requirements Document (PRD) - UPCHARR Healthcare Platform
+# Product Requirements Document (PRD) - UPCHAR Healthcare Platform
 
 ## 1. Executive Summary
 
-**Project Name:** UPCHARR - Comprehensive Healthcare Management Platform  
+**Project Name:** UPCHAR - Comprehensive Healthcare Management Platform  
 **Framework:** CodeIgniter 3.x (PHP)  
 **Database:** MySQL  
 **Architecture:** MVC (Model-View-Controller) with HMVC patterns  
@@ -10,7 +10,7 @@
 
 ## 2. Product Overview
 
-UPCHARR is a multi-stakeholder healthcare platform that connects patients with healthcare providers including doctors, hospitals, pathlabs, and medical stores. The platform provides appointment booking, patient history management, telemedicine capabilities, and e-commerce functionality for medicines.
+UPCHAR is a multi-stakeholder healthcare platform that connects patients with healthcare providers including doctors, hospitals, pathlabs, and medical stores. The platform provides appointment booking, patient history management, telemedicine capabilities, and e-commerce functionality for medicines.
 
 ### 2.1 Vision Statement
 To create a unified digital healthcare ecosystem that simplifies healthcare access for patients while providing powerful management tools for healthcare providers.

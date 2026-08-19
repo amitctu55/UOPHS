@@ -1,4 +1,4 @@
-# Project Structure Documentation - UPCHARR Healthcare Platform
+# Project Structure Documentation - UPCHAR Healthcare Platform
 
 ## 1. Root Directory Structure
 
@@ -374,7 +374,7 @@ css/
 | `home.php` | Legacy home page | 75KB |
 | `survey.php` | Survey form | 6KB |
 | `tc.html` | Terms & Conditions | 80KB |
-| `upcharr.html` | Landing page | 53KB |
+| `upchar.html` | Landing page | 53KB |
 
 ### 7.2 Controller Complexity
 
@@ -462,7 +462,7 @@ $db['default'] = array(
     'hostname' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'upcharr_live',
+    'database' => 'upchar_live',
     'dbdriver' => 'mysqli',
     'db_debug' => TRUE,
     'char_set' => 'utf8',

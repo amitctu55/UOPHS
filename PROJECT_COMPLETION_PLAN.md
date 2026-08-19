@@ -1,4 +1,4 @@
-# Project Completion Plan - UPCHARR Healthcare Platform
+# Project Completion Plan - UPCHAR Healthcare Platform
 
 **Document Type:** Project Roadmap & Implementation Plan  
 **Version:** 1.0  
@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-This document outlines the complete plan to finish, modernize, and scale the UPCHARR healthcare platform. The project is divided into **4 Phases** spanning **18 months**, with clear milestones, deliverables, and success criteria for each phase.
+This document outlines the complete plan to finish, modernize, and scale the UPCHAR healthcare platform. The project is divided into **4 Phases** spanning **18 months**, with clear milestones, deliverables, and success criteria for each phase.
 
 ### Quick Reference
 
@@ -141,7 +141,7 @@ This document outlines the complete plan to finish, modernize, and scale the UPC
   ```php
   // application/config/config.php
   $config['sess_driver'] = 'database';
-  $config['sess_cookie_name'] = 'upcharr_sess';
+  $config['sess_cookie_name'] = 'upchar_sess';
   $config['sess_expiration'] = 7200;
   $config['sess_match_ip'] = TRUE;
   $config['cookie_httponly'] = TRUE;
@@ -206,7 +206,7 @@ This document outlines the complete plan to finish, modernize, and scale the UPC
   - [ ] Provision staging server
   - [ ] Clone production database (sanitized)
   - [ ] Configure staging environment
-  - [ ] Set up separate domain (staging.upcharr.com)
+  - [ ] Set up separate domain (staging.upchar.info)
   - [ ] Document deployment process
 
 #### Task 1.4.2: CI/CD Pipeline

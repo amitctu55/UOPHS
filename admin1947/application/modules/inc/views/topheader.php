@@ -2,9 +2,9 @@
     <!-- Logo -->
     <a href="#" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>Upcharr</b> Admin</span>
+      <span class="logo-mini"><b>Upchar</b> Admin</span>
       <!-- logo for regular state and mobile devices -->
-     <span class="logo-lg"><b></b> Upcharr</span>
+     <span class="logo-lg"><b></b> Upchar</span>
      <!-- <span class="logo-lg"><img src="http://fddi.tk/public/assets/fddilogo.png" class="img-responsive" style="height: 45px; margin: auto;margin-top: 4px;"></span>-->
     </a>
     <!-- Header Navbar: style can be found in header.less -->

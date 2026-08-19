@@ -11,8 +11,8 @@
                         <!--// Widget Contact Info \\-->
                         <aside class="col-md-4 widget widget_contact_info">
                             <a href="<?=base_url();?>" class="footer-logo"><img src="<?=base_url();?>images/Upchar_footer.png" alt="" style="height: 100px;margin-bottom:0px;"></a>
-                            <p>Workboat Media Private Limited (“UPCHAR”) is the author and publisher of the internet resource <a href="http://www.upcharr.com" target='_blank' style="text-decoration: none;
-  color: #008CBA;"> http://www.upcharr.com</a> and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..<br>
+                            <p>Workboat Media Private Limited (“UPCHAR”) is the author and publisher of the internet resource <a href="http://www.upchar.info" target='_blank' style="text-decoration: none;
+  color: #008CBA;"> http://www.upchar.info</a> and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..<br>
                          <a href="<?=base_url();?>aboutus" class="careplus-readmore-btn">read more <span></span></a>   </p>
                         </aside>
 
@@ -36,7 +36,7 @@
                                 <li><a href="404.html">Prostheses</a></li>
                                 <li><a href="404.html">Patient Reports</a></li>
                                 <li><a href="404.html">Traumatology</a></li>
-                                <li><a href="https://www.upcharr.com/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
+                                <li><a href="https://www.upchar.info/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
                             </ul>
                         </aside>
                         <!--// Widget Useful Link \\-->
@@ -52,7 +52,7 @@
                                 </li>
                                 <li>
                                     <h6>Mail Us At:</h6>
-                                    <a href="mailto:info@upcharr.com">hello@upcharr.com - info@upcharr.com</a>
+                                    <a href="mailto:info@upchar.info">hello@upchar.info - info@upchar.info</a>
                                 </li>
                                 <li>
                                     <h6>Our Location:</h6>

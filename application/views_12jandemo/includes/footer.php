@@ -9,7 +9,7 @@
                         <!--// Widget Contact Info \\-->
                         <aside class="col-md-4 widget widget_contact_info">
                             <a href="index.html" class="footer-logo"><img src="<?=base_url();?>images/footer-logo.png" alt=""></a>
-                            <p>GYANTECH International Private Limited (“UPCHARR”) is the author and publisher of the internet resource http://www.upcharr.com and the mobile application ‘Upchar’ (together, “Website”). Upcharr owns and operates the services provided through the Website..</p>
+                            <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..</p>
                             
                         </aside>
                         <!--// Widget Contact Info \\-->
@@ -29,7 +29,7 @@
                                 <li><a href="404.html">Prostheses</a></li>
                                 <li><a href="404.html">Patient Reports</a></li>
                                 <li><a href="404.html">Traumatology</a></li>
-                                <li><a href="https://www.upcharr.com/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
+                                <li><a href="https://www.upchar.info/search?location=&city=&keyword=&spl=">Appointment</a></li>-->
                             </ul>
                         </aside>
                         <!--// Widget Useful Link \\-->
@@ -45,7 +45,7 @@
                                 </li>
                                 <li>
                                     <h6>Mail Us At:</h6>
-                                    <a href="mailto:yourdomain@name.com">hello@upcharr.com - info@upcharr.com</a>
+                                    <a href="mailto:yourdomain@name.com">hello@upchar.info - info@upchar.info</a>
                                 </li>
                                 <li>
                                     <h6>Our Location:</h6>

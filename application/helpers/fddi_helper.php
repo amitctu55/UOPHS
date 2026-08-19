@@ -197,7 +197,7 @@ if ( ! function_exists('getInstituteName'))
 if ( ! function_exists('admin_url'))
 {
 	function admin_url(){
-		return 'https://www.upcharr.com/admin1947/';
+		return 'https://www.upchar.info/admin1947/';
 	}
 }
 

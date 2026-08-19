@@ -153,8 +153,8 @@
      
    <img class="bannertext" src="images/heart.png" alt="Welcome In Upchar">
 <div class=bannerbox>
-    <a href="https://www.upcharr.com/search?location=&city=&keyword=&spl="><h4 style="font-weight:bold;color:white;text-shadow: 0px -3px 5px #464545;"><i class="fa fa-calendar" id="appointmentbookicon" aria-hidden="true"></i> Book  Appointment</h4></a>
-    <a href="https://www.upcharr.com/login"><span class="NewButton" id="appointmentbookicon">Create Account</span></a>
+    <a href="https://www.upchar.info/search?location=&city=&keyword=&spl="><h4 style="font-weight:bold;color:white;text-shadow: 0px -3px 5px #464545;"><i class="fa fa-calendar" id="appointmentbookicon" aria-hidden="true"></i> Book  Appointment</h4></a>
+    <a href="https://www.upchar.info/login"><span class="NewButton" id="appointmentbookicon">Create Account</span></a>
 </div>
 
     </div>
@@ -184,7 +184,7 @@
                                 <div class="col-md-12">
                                     <div class="careplus-banner-wrap">
                                         <h1><span>You Can’t</span>Always Be There<span>But We CAn</span></h1>
-                                        <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upcharr.com and the mobile application ‘Upchar’ (together, “Website”). </p>
+                                        <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). </p>
                                         <div class="clearfix"></div>
                                         <a href="aboutus.php" class="careplus-banner-btn" tabindex="0">Read More <span></span></a>
                                     </div>

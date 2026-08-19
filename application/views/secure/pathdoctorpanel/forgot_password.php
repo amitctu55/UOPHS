@@ -33,7 +33,7 @@
                         <div class="col-sm-4 col-md-offset-4 borders">
                           <div class="box-header">Forgot Password</div>
                             <div class="label_name">                 
-                                <p>Provide us the email id/ mobile of your Upcharr account and we will send you an otp with instructions to reset your password.</p>
+                                <p>Provide us the email id/ mobile of your Upchar account and we will send you an otp with instructions to reset your password.</p>
                                    <span>Enter Email Or Mobile</span>
                                   <input value="" type="" name="mobile" class="form-control" Placeholder='Enter Registered Email or Mobile' required>
       <button type="submit" class="btn  btn-lg common-btn practo-btn" style="margin-top: 10px!important;"> Send me instructions

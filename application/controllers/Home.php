@@ -514,7 +514,7 @@ class Home extends CI_Controller {
 		$mobile=$this->input->post('mobile');
 		$this->session->set_userdata('app_otp',$otp);
 		$msg="Your One Time Password is $otp
-	WWW.UPCHARR.COM";
+	WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);
 			echo 'OK';
 	}
@@ -682,7 +682,7 @@ class Home extends CI_Controller {
 
 
 		/*$msg="Your Appoint booked successfully! Appointment ID# $aid
-	WWW.UPCHAR.COM";
+	WWW.UPCHAR.INFO";
 			sendsms($msg,$mobile);*/
 			echo 'OK';
 
@@ -694,7 +694,7 @@ class Home extends CI_Controller {
 		$udata=array('status'=>'1');
 				$this->db->where(array('id'=>$pid,'user_id'=>$drid,'type'=>'H','status'=>'0'))->update('dr_practice',$udata);
 
-				echo 'Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upcharr.com <BR>';
+				echo 'Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upchar.info <BR>';
 	}
 
 	public function aboutus(){
@@ -752,7 +752,7 @@ class Home extends CI_Controller {
 
 					$this->db->insert('contactus',$udata);
 				    $this->load->library('azad_lib');
-		        	$body="Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upcharr.com <BR>   Email: $email  ";
+		        	$body="Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upchar.info <BR>   Email: $email  ";
 		         	$this->azad_lib->sendMail($email,'Request for your profile approval be a part of  hospital ',$body);
 
            }
@@ -787,7 +787,7 @@ class Home extends CI_Controller {
 
 					$this->db->insert('contactus',$udata);
 				$this->load->library('azad_lib');
-			$body="Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upcharr.com<BR>   Email: $email  ";
+			$body="Thank You for be a part of Upchar powered by workboat Media Pvt Ltd <BR>Feel free to call us on 8448440603 with extention NO-11 <BR> Please visit http://www.upchar.info<BR>   Email: $email  ";
 			$this->azad_lib->sendMail($email,'Request from  hospital for profile approval',$body);
 
 

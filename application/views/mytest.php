@@ -368,7 +368,7 @@
 							    	    	    <h5>Upcahr Hospital Pathlogy</h5>
 							    	    	    <p>Near By you</p>
 							    	    	    <div class="text-center">
-							    	    	        <img src="https://www.upcharr.com/images/Final_logo23.png" class="backpageImg">
+							    	    	        <img src="https://www.upchar.info/images/Final_logo23.png" class="backpageImg">
 							    	    	    </div>
 							    	    	    
 							    	    	    <br>
@@ -384,7 +384,7 @@
 							    	    	    <h5>Upcahr Hospital Pathlogy</h5>
 							    	    	    <p>Near By you</p>
 							    	    	    <div class="text-center">
-							    	    	        <img src="https://www.upcharr.com/images/Final_logo23.png" class="backpageImg">
+							    	    	        <img src="https://www.upchar.info/images/Final_logo23.png" class="backpageImg">
 							    	    	    </div>
 							    	    	    
 							    	    	    <br>
@@ -400,7 +400,7 @@
 							    	    	    <h5>Upcahr Hospital Pathlogy</h5>
 							    	    	    <p>Near By you</p>
 							    	    	    <div class="text-center">
-							    	    	        <img src="https://www.upcharr.com/images/Final_logo23.png" class="backpageImg">
+							    	    	        <img src="https://www.upchar.info/images/Final_logo23.png" class="backpageImg">
 							    	    	    </div>
 							    	    	    
 							    	    	    <br>

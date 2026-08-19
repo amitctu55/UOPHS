@@ -308,7 +308,7 @@ public function managedoctor()
 			$this->load->library('azad_lib');
 			$body="Request from  abcd hospital for profile approval <BR>   Login: $mobile / $otp  ".base_url().'home/securepapproval/'.mybase64_encode($practiceid).'/'.mybase64_encode($drid).'';
 			$this->azad_lib->sendMail($email,'Request from  abcd hospital for profile approval',$body);
-			/* $msg="Dear ".$name[0].", Wecome to Upcharr medical solutions. Your otp is $otp
+			/* $msg="Dear ".$name[0].", Wecome to Upchar medical solutions. Your otp is $otp
 thank you for being a part of Upchar.";
 			sendsms($msg,$mobile); */
 				$response=array('status'=>'success','msg'=>'Created new Doctor Profile & Linked Successfully!');
