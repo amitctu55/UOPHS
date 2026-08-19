@@ -1,7 +1,1 @@
-```markdown
-# Project documentation files
-PRD.md
-PROJECT_COMPLETION_PLAN.md
-new_structure.md
-status.md
-```
+Nothing needs to be added to the .gitignore file based on the provided changes. The only file added is 'landing.html', which is a source file and should not be ignored.
