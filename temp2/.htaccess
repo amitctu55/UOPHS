@@ -1,0 +1,4 @@
+# This allows you to redirect your entire website to any other domain
+# Redirect 302 / http://www.mylomart.com/
+# ####RedirectMatch permanent .* http://www.aspl.ml/
+AddHandler cgi-script .py

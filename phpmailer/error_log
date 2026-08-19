@@ -1,0 +1,5 @@
+[02-Sep-2016 07:22:50 America/Chicago] PHP Fatal error:  Class 'SMTP' not found in /home/otrams/public_html/phpmailer/class.phpmailer.php on line 1466
+[02-Sep-2016 07:24:02 America/Chicago] PHP Fatal error:  Class 'SMTP' not found in /home/otrams/public_html/phpmailer/class.phpmailer.php on line 1466
+[02-Sep-2016 07:24:05 America/Chicago] PHP Fatal error:  Class 'SMTP' not found in /home/otrams/public_html/phpmailer/class.phpmailer.php on line 1466
+[02-Sep-2016 07:28:45 America/Chicago] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`apps.qtechsoftware.com' did not match expected CN=`mail.otrams.net' in /home/otrams/public_html/phpmailer/class.smtp.php on line 358
+[02-Sep-2016 07:34:30 America/Chicago] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`apps.qtechsoftware.com' did not match expected CN=`mail.otrams.net' in /home/otrams/public_html/phpmailer/class.smtp.php on line 358
