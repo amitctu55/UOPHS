@@ -1,6 +1,8 @@
 <?php
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_STRICT);
 /**
  * CodeIgniter
+echo "HELLO FROM INDEX.PHP<br>";
  *
  * An open source application development framework for PHP
  *
@@ -53,7 +55,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'production');
+	define('ENVIRONMENT', 'testing');
 
 date_default_timezone_set("Asia/Kolkata");
 /*

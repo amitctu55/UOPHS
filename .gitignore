@@ -1,4 +1,57 @@
-```
+# Created for Upchar project
+# Ignore sensitive configuration files
+application/config/testing/database.php
+
+# Ignore log files
+error_log
+admin1947/error_log
+webservices/error_log
+
+# Ignore cache and temporary directories
+application/cache/
+application/logs/
+temp2/
+application/views_12jandemo/application/cache/
+application/views_12jandemo/application/logs/
+
+# Ignore compiled source files
+application/views.zip
+
+# Ignore PHPMyAdmin temp files
+temp2/myadmin2/tmp/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+*.backup
+*.swp
+
+# Ignore test files that might contain sensitive info
+test*.php
+db_test.php
+hello.php
+info.php
+info2.php
+mysqli_functions.php
+
+# Ignore uploads and user-generated content (adjust paths as needed)
+admin1947/public/assets/upload/
+application/third_party/user_uploads/
+
+# Ignore vendor dependencies if using Composer
+vendor/
+
+# Additional generic ignores from upstream
 # Twig cache files
 temp2/myadmin2/tmp/twig/
 
@@ -46,7 +99,6 @@ htmlcov/
 *.bz2
 *.xz
 *.7z
-*.rar
 *.zst
 *.lz4
 *.lzh
@@ -61,4 +113,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```
