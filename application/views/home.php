@@ -96,6 +96,7 @@
     <div class="text-center">
   <div class="spinner-border" role="status">
     <span class="sr-only">Loading...</span>
+    <div style="background:#fff0f0;padding:10px;margin:10px;border:1px solid #f00;"><?php $CI =& get_instance(); echo "Base URL: " . $CI->config->base_url . "<br>"; echo "Site URL: " . $CI->config->site_url("") . "<br>"; ?></div>
   </div>
 </div>
 <?php include ("includes/header_new.php"); ?>

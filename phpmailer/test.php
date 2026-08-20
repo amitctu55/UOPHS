@@ -12,7 +12,11 @@ $mail->Password = 'swati@123';                  // SMTP password
 $mail->SMTPSecure = 'plain';                            // Enable encryption, 'ssl' also accepted
 
 $mail->From = 'upchar@upchar.info';
+<<<<<<< Updated upstream
 $mail->FromName = 'Upchar';
+=======
+$mail->FromName = 'Upcharr';
+>>>>>>> Stashed changes
 $mail->AddAddress('gyantech.vns@gmail.com');  // Add a recipient
 $mail->AddAddress('recepientmail ID');               // Name is optional
 

@@ -1,17 +1,12 @@
 RewriteEngine On
-#RewriteCond %{HTTP_HOST} !^$
-#RewriteCond %{HTTP_HOST} !^www\. [NC]
-#RewriteCond %{HTTPS}s ^on(s)|
-#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-#RewriteCond %{HTTPS} off
-#RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=302,L,NE]
+RewriteBase /upchar/
 
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
-
+# Remove the HTTPS and WWW forcing rules for local development
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#
+# RewriteCond %{HTTP_HOST} !^www\.
+# RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 
 RewriteCond $1 !^(index.php|resources|robots.txt)
 RewriteCond %{REQUEST_FILENAME} !-f

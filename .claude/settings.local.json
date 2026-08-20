@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 2 bash -c '</dev/tcp/10.255.255.254/3306')",
+      "Bash(timeout 2 bash -c '</dev/tcp/127.0.0.1/3306')",
+      "Bash(mysql *)",
+      "Bash(php *)"
+    ]
+  }
+}

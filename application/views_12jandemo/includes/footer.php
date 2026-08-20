@@ -9,7 +9,11 @@
                         <!--// Widget Contact Info \\-->
                         <aside class="col-md-4 widget widget_contact_info">
                             <a href="index.html" class="footer-logo"><img src="<?=base_url();?>images/footer-logo.png" alt=""></a>
+<<<<<<< Updated upstream
                             <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..</p>
+=======
+                            <p>GYANTECH International Private Limited (“UPCHARR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upcharr owns and operates the services provided through the Website..</p>
+>>>>>>> Stashed changes
                             
                         </aside>
                         <!--// Widget Contact Info \\-->

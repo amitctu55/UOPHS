@@ -1,0 +1,13 @@
+{
+  "enabledPlugins": {},
+  "mcpServers": {
+    "claude-flow": {
+      "command": "npx",
+      "args": [
+        "ruflo@latest",
+        "mcp",
+        "start"
+      ]
+    }
+  }
+}

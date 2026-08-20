@@ -37,6 +37,8 @@ color: #fff;}
   </style>
 </head>
 <body>
+    <?php echo "TEST<br>"; ?>
+    <div style="background:#fff0f0;padding:10px;margin:10px;border:1px solid #f00;"><?php $CI =& get_instance(); echo "Base URL: " . $CI->config->base_url . "<br>"; echo "Site URL: " . $CI->config->site_url("") . "<br>"; ?></div>
 
 <header>
 
@@ -1133,7 +1135,11 @@ color: #fff;}
                         
                          <aside class="col-md-4 widget widget_contact_info">
                             <h2 class="careplus-footer-title">Draft About Us</h2>
+<<<<<<< Updated upstream
                             <p>GYANTECH International Private Limited (“UPCHAR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upchar owns and operates the services provided through the Website..
+=======
+                            <p>GYANTECH International Private Limited (“UPCHARR”) is the author and publisher of the internet resource http://www.upchar.info and the mobile application ‘Upchar’ (together, “Website”). Upcharr owns and operates the services provided through the Website..
+>>>>>>> Stashed changes
                          <a href="aboutus.php" class="careplus-readmore-btn">read more <span></span></a>   </p>
                         </aside>
 
