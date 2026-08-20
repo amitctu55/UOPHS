@@ -1,6 +1,7 @@
 # Created for Upchar project
 # Ignore sensitive configuration files
 application/config/testing/database.php
+admin1947/application/config/database.php
 
 # Ignore log files
 error_log

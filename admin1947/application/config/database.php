@@ -74,22 +74,13 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-<<<<<<< Updated upstream
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'upchar_live',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-=======
-       'hostname' => 'localhost',     // or '127.0.0.1'
+	   'hostname' => 'localhost',     // or '127.0.0.1'
        'username' => '',
        'password' => '',
        'database' => 'upchar_live',
        'dbdriver' => 'mysqli',
-  	'dbprefix' => '',
->>>>>>> Stashed changes
+  	   'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
