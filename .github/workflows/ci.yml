@@ -37,11 +37,13 @@ jobs:
         tools: composer
 
     - name: Wait for MySQL to be ready
+      env:
+        MYSQL_PWD: ""
       run: |
         for i in {1..30}; do
-          if mysqladmin ping -h localhost --silent; then
+          if mysqladmin ping -h127.0.0.1 -P3306 --silent; then
             # Additional check: try to connect to the database
-            if mysql -h localhost -u root -p"" -e "SHOW DATABASES;" | grep -q upchar_live; then
+            if mysql -h127.0.0.1 -P3306 -uroot -e "SHOW DATABASES;" | grep -q upchar_live; then
               echo "MySQL is ready and database exists!"
               break
             fi
@@ -51,20 +53,24 @@ jobs:
         done
 
     - name: Import database schema
+      env:
+        MYSQL_PWD: ""
       run: |
-        mysql -h localhost -u root -p"" upchar_live < database/upchar_live.sql
+        mysql -h127.0.0.1 -P3306 -uroot upchar_live < database/upchar_live.sql
 
     - name: Run basic PHP syntax check
       run: find . -name "*.php" -exec php -l {} \; | grep -v "No syntax errors detected"
 
     - name: Test database connection
+      env:
+        MYSQL_PWD: ""
       run: |
         php -r "
-        \$mysqli = new mysqli('localhost', 'root', '', 'upchar_live');
-        if (\$mysqli->connect_error) {
-            echo 'Connection failed: ' . \$mysqli->connect_error;
+        $mysqli = new mysqli('127.0.0.1', 'root', '', 'upchar_live', 3306);
+        if ($mysqli->connect_error) {
+            echo 'Connection failed: ' . $mysqli->connect_error;
             exit(1);
         }
         echo 'Database connection successful';
-        \$mysqli->close();
+        $mysqli->close();
         "
