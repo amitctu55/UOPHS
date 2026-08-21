@@ -159,3 +159,21 @@ ERROR - 2026-08-21 15:02:26 --> 404 Page Not Found: /index
 ERROR - 2026-08-21 15:02:26 --> 404 Page Not Found: /index
 ERROR - 2026-08-21 15:02:26 --> 404 Page Not Found: /index
 ERROR - 2026-08-21 15:02:26 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 15:49:16 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 15:49:16 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 15:49:16 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 15:49:16 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:35 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:35 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:35 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:35 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:40 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:40 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:40 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:40 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:42 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:42 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:42 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:42 --> 404 Page Not Found: /index
+ERROR - 2026-08-21 16:04:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) C:\xampp\htdocs\upchar\admin1947\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2026-08-21 16:04:49 --> Unable to connect to the database
