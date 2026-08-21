@@ -40,8 +40,11 @@ jobs:
       run: |
         for i in {1..30}; do
           if mysqladmin ping -h localhost --silent; then
-            echo "MySQL is ready!"
-            break
+            # Additional check: try to connect to the database
+            if mysql -h localhost -u root -p"" -e "SHOW DATABASES;" | grep -q upchar_live; then
+              echo "MySQL is ready and database exists!"
+              break
+            fi
           fi
           echo "Waiting for MySQL connection... ($i/30)"
           sleep 2
