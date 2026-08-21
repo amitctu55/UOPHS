@@ -17,6 +17,7 @@
     <p class="login-box-msg">Sign in to start your session</p>
 	<?=$this->session->flashdata('flashmsg');?>
     <form action="<?=base_url()?>login/login/login" method="post">
+	<!-- Debug: Form action is <?=base_url()?>login/login/login -->
       <div class="form-group has-feedback">
         <input type="text" class="form-control" name="name" placeholder="Username" required="true">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

@@ -313,4 +313,6 @@ switch (ENVIRONMENT)
  *
  * And away we go...
  */
+// Debug: Log that index.php is being called
+error_log("Admin1947 index.php called with URI: " . $_SERVER['REQUEST_URI']);
 require_once BASEPATH.'core/CodeIgniter.php';
