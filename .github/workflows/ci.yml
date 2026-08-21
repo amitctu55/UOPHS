@@ -36,22 +36,6 @@ jobs:
         ini-values: error_reporting=E_ALL
         tools: composer
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate
-
-    - name: Install dependencies
-      run: composer install --prefer-dist --no-progress --no-suggest
-
-    - name: Copy environment files
-      run: |
-        cp application/config/testing/database.php.example application/config/testing/database.php 2>/dev/null || true
-        cp application/config/database.php.example application/config/database.php 2>/dev/null || true
-
-    - name: Set file permissions
-      run: |
-        chmod -R 755 .
-        chmod -R 777 application/cache application/logs temp2
-
     - name: Wait for MySQL to be ready
       run: |
         for i in {1..30}; do
