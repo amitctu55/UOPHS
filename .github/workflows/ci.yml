@@ -52,6 +52,21 @@ jobs:
         chmod -R 755 .
         chmod -R 777 application/cache application/logs temp2
 
+    - name: Wait for MySQL to be ready
+      run: |
+        for i in {1..30}; do
+          if mysqladmin ping -h localhost --silent; then
+            echo "MySQL is ready!"
+            break
+          fi
+          echo "Waiting for MySQL connection... ($i/30)"
+          sleep 2
+        done
+
+    - name: Import database schema
+      run: |
+        mysql -h localhost -u root -p"" upchar_live < database/upchar_live.sql
+
     - name: Run basic PHP syntax check
       run: find . -name "*.php" -exec php -l {} \; | grep -v "No syntax errors detected"
 
